@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, innitial scale=1.0">
+        <title>chobi - About Us</title>
+        <style>
+            /* Reset styles */
+            * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box; 
+            }
+            /*Global styles */
+            body {
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            /*Header styles */
+            header {
+                background-image: url('hero-image.jpg');
+                background-size: cover;
+                background-position: centre;
+                padding: 80px 0;
+                color: #fff;
+                text-align: center;
+            }
+            .header-text {
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            /* content styles */
+            .content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 40px;
+            }
+            .content-iterm {
+                flex: 0 0 48%;
+                margin-bottom: 40px;
+            }
+            .content-iterm img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .content-iterm h2 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .content-iterm p {
+                line-height: 1.5;
+            }
+            .read-more {
+                background-color: #0066ff;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-top: 20px;
+            }
+            /* Responsive styles */
+            @media (max-width: 768px) {
+                .content-iterm {
+                    flex: 0 0 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-text">AB OUT US.</div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="content">
+                <div class="content-iterm">
+                    <img src="IMG-20240112-WA0027.jpg" alt="photographer">
+                    <h2>Get your professional photo from chobi photography.</h2>
+                    <p>We are 58+ years of experience in company profile & personal photography.
+                    <a href="#" class="read-more">READ MORE</a>
+                </div>
+                <div class="content-iterm">
+                    <h2>It has survived not only five centuries but also the leap into electronic 
+                        typesetting </h2>
+                        <p>Lorem ipsum has been the industry's standard dummy text ever since the 
+                            unkown printer to ok a gallery of type and scramble it to make a type 
+                            specimen has survived not only five centuries essentially.</p>  
+                </div>
+                <div class="content-iterm">
+                    <h2>there are many variations of passage's available butter have suffered alteration.</h2>
+                    <p>Lorem ipsum has been the industry's standard dummy text ever since the 
+                        unkown printer to ok a gallery of type and scramble it to make a type 
+                        specimen has survived not only five centuries essentially.</p>  
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
